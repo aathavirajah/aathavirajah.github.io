@@ -14,7 +14,17 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
-        <BODY bgcolor="black">
+        .column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -112,20 +122,7 @@
   <div class="column">
     <img src="assets/img/414811_10151018856630954_280184016_o.jpg" alt="Mountains" style="width:100%">
   </div>
-</div>
-<!------/* Three image containers (use 25% for four, and 50% for two, etc) */------>
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-}
-
-<!----------/* Clear floats after image containers */-------->
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-                    }
+                    </div>
                     <div class="col-lg-6"><img class="img-fluid" src="assets/img/622547_10151018841750954_1492738284_o.jpg" alt="..." /></div>
                     <div class="col-lg-6">
                         <div class="bg-black text-center h-100 project">
